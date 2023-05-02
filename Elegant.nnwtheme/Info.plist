@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ThemeIdentifier</key>
+	<string>com.52chinaweb.themes.elegant</string>
+	<key>Name</key>
+	<string>elegant</string>
+	<key>CreatorHomePage</key>
+	<string>https://52chinaweb.com/</string>
+	<key>CreatorName</key>
+	<string>Chang Jun</string>
+	<key>Version</key>
+	<integer>1</integer>
+</dict>
+</plist>
