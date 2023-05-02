@@ -1,9 +1,16 @@
 {
   "css.validate": false,
   "stylelint.validate": ["css"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
   "[css]": {
     "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": false,
       "source.fixAll.stylelint": true
     }
-  }
+  },
+  "cSpell.words": [
+    "antfu"
+  ]
 }
