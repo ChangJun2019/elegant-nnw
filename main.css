@@ -1,1 +1,23 @@
 /* my style */
+
+/* var */
+:root {
+  --c-bg-base: #fff;
+  --c-text-base: #000
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+    --c-bg-base: rgb(17 17 17);
+    --c-text-base: #fff
+	}
+}
+
+/* var end */
+
+html,body{ 
+  background-color: var(--c-bg-base);
+  color: var(--c-text-base);
+}
+
+

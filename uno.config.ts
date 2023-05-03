@@ -1,6 +1,6 @@
 import fs from 'node:fs'
-import { defineConfig } from 'unocss'
-import { DIRECTORY_NAME } from './constant'
+import { defineConfig, presetAttributify, presetIcons, presetTypography, presetUno } from 'unocss'
+import { ARTICLE_TEXT, DIRECTORY_NAME } from './constant'
 
 function getMainCss() {
   const env = process.env.NODE_ENV
@@ -20,10 +20,33 @@ export default defineConfig({
     },
   },
 
+  shortcuts: [
+    [/^(.*)Text$/, ([,c]) => `text-${ARTICLE_TEXT[c]}`],
+  ],
+
+  theme: {
+    maxWidth: {
+      prose: '80ch',
+    },
+  },
+
+  presets: [
+    presetUno({
+      dark: 'media',
+    }),
+    presetAttributify(),
+    presetIcons({
+      scale: 1.2,
+    }),
+    presetTypography(),
+  ],
+
   preflights: [
     {
       layer: 'my-style',
       getCSS: () => getMainCss(),
     },
   ],
+
+  safelist: [...Object.keys(ARTICLE_TEXT).map(i => `${i}Text`)],
 })
