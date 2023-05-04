@@ -28,6 +28,13 @@ export default defineConfig({
     maxWidth: {
       prose: '80ch',
     },
+    fontFamily: {
+      sans: ['ui-sans-serif', 'system-ui'],
+      serif: ['ui-serif', 'Georgia'],
+      mono: ['ui-monospace', 'SFMono-Regular'],
+      display: ['ui-sans-serif'],
+      body: ['ui-sans-serif'],
+    },
   },
 
   presets: [
@@ -38,7 +45,13 @@ export default defineConfig({
     presetIcons({
       scale: 1.2,
     }),
-    presetTypography(),
+    presetTypography({
+      cssExtend: {
+        blockquote: {
+          'font-style': 'none',
+        },
+      },
+    }),
   ],
 
   preflights: [
