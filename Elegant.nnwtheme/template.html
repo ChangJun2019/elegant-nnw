@@ -32,14 +32,6 @@ body: The body of the article.
 
 <div id="elegantReader" class="animate-fade-in max-w-prose px-8 py-3 mx-auto box-border font-sans [[text_size_class]]">
   
-  
-  <article class="prose prose-dark dark:prose-light">
-    <h1>[[title]]</h1>
-    <p class="my-4 opacity-50">[[datetime_medium]]</p>
-    [[body]]
-    <p class="opacity-60 text-sm text-center">- THE END -</p>
-  </article>
-  
   <!-- <div class="flex flex-col items-center mt-6">
     <img src="[[avatar_src]]" class="w-18 h-18 rounded-md" alt="">
     <div class="flex mt-4 space-x-2">
@@ -54,6 +46,15 @@ body: The body of the article.
       </div>
     </div>
   </div> -->
+  
+  <article class="prose prose-dark dark:prose-light">
+    <h1>[[title]]</h1>
+    <p class="my-4 opacity-50">[[datetime_medium]]</p>
+    [[body]]
+    <p class="opacity-60 text-sm text-center">- THE END -</p>
+  </article>
+  
+  
 
   <footer class="my-6 prose text-center">
     <a href="[[feed_link]]">[[byline]]</a>
