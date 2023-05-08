@@ -13,8 +13,10 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.38.5",
+    "@iconify-json/carbon": "^1.1.16",
     "@types/node": "^18.16.3",
     "@unocss/eslint-config": "^0.51.8",
+    "@unocss/preset-icons": "^0.51.12",
     "clean-css": "^5.3.2",
     "eslint": "^8.39.0",
     "stylelint": "^15.6.0",

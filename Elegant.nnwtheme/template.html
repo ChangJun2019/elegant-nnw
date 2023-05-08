@@ -30,9 +30,17 @@ body: The body of the article.
 
 -->
 
-<div id="elegantReader" class="animate-fade-in max-w-prose mx-auto font-sans [[text_size_class]]">
-  <p id="test" class="text-sm"></p>
-  <div class="flex flex-col items-center mt-6">
+<div id="elegantReader" class="animate-fade-in max-w-prose px-8 py-3 mx-auto box-border font-sans [[text_size_class]]">
+  
+  
+  <article class="prose prose-dark dark:prose-light">
+    <h1>[[title]]</h1>
+    <p class="my-2 opacity-50">[[datetime_medium]]</p>
+    [[body]]
+    <p class="opacity-60 text-sm text-center">- THE END -</p>
+  </article>
+  
+  <!-- <div class="flex flex-col items-center mt-6">
     <img src="[[avatar_src]]" class="w-18 h-18 rounded-md" alt="">
     <div class="flex mt-4 space-x-2">
       <a href="[[preferred_link]]" class="text-gray-300" alt="original text" title="original text [[title]]">
@@ -45,38 +53,15 @@ body: The body of the article.
         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path fill="currentColor" d="M25 12h-5v2h5a1 1 0 0 1 1 1v2h-4a3.003 3.003 0 0 0-3 3v1a3.003 3.003 0 0 0 3 3h6v-9a3.003 3.003 0 0 0-3-3zm-3 10a1 1 0 0 1-1-1v-1a1 1 0 0 1 1-1h4v3zm-6 2h2L12 7h-2L4 24h2l1.694-5h6.613zm-7.629-7l2.497-7.371h.266L13.63 17z"/></svg>
       </div>
     </div>
-  </div>
-  
-  <article class="prose px-8 py-3 prose-dark dark:prose-light">
-    <h1>[[title]]</h1>
-    <p class="mt-2 opacity-80">[[datetime_medium]]</p>
-    [[body]]
-  </article>
-  
-  <footer class="text-center flex flex-col mb-6">
-    <p class="opacity-60 text-sm">- THE END -</p>
-    <a href="[[feed_link]]" class="">[[byline]]</a>
+  </div> -->
+
+  <footer class="my-6 prose text-center">
+    <a href="[[feed_link]]">[[byline]]</a>
   </footer>
 </div>
 
 
-<script type="text/javascript">
-    const textSizeEl = document.getElementById('textSize')
-    const elegantReaderEl = document.getElementById('elegantReader')
-    const testEl = document.getElementById('test')
-    const sizes = ['small', 'large', 'xLarge', 'xxLarge', 'medium']
-    let currentSize = 0
-
-    function toggleSize() {
-      const _className = `${sizes[currentSize]}Text`
-      testEl.innerHTML = `${_className}`
-      elegantReaderEl.classList.remove(_className)
-      currentSize = (currentSize + 1) % sizes.length
-      elegantReaderEl.classList.add(_className)
-    }
-
-    textSizeEl.addEventListener('click', toggleSize)
-</script>
+<script type="text/javascript"></script>
 
 
 

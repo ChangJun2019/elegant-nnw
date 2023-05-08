@@ -4,12 +4,18 @@ devDependencies:
   '@antfu/eslint-config':
     specifier: ^0.38.5
     version: 0.38.5(eslint@8.39.0)(typescript@5.0.4)
+  '@iconify-json/carbon':
+    specifier: ^1.1.16
+    version: 1.1.16
   '@types/node':
     specifier: ^18.16.3
     version: 18.16.3
   '@unocss/eslint-config':
     specifier: ^0.51.8
     version: 0.51.8(eslint@8.39.0)(typescript@5.0.4)
+  '@unocss/preset-icons':
+    specifier: ^0.51.12
+    version: 0.51.12
   clean-css:
     specifier: ^5.3.2
     version: 5.3.2
@@ -460,6 +466,12 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
+  /@iconify-json/carbon@1.1.16:
+    resolution: {integrity: sha512-AD8bcnRSGA0WfcGEass2FbA0sagrUzrpFx5WchuDy3uf7yKBWumdypdQK121DH321fQDl5+zZQ26T6gC9knwUQ==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
   /@iconify/types@2.0.0:
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
     dev: true
@@ -771,6 +783,10 @@ packages:
       unconfig: 0.3.7
     dev: true
 
+  /@unocss/core@0.51.12:
+    resolution: {integrity: sha512-H8mLy6ZKu9nGZe5jlHhLPIVwh2G3cCDSBGl5aIZJFI1qpmDC+Zb3iueBGigNpX75IzkjaGKZiK1WUWq8TShjtA==}
+    dev: true
+
   /@unocss/core@0.51.8:
     resolution: {integrity: sha512-myHRKBphEN3h0OnsUhg2JaFKjFGfqF/jmmzZCCMNU5UmxbheZomXANNLYXVgEP6LHvd4xAF0DEzrOBcDPLf0HQ==}
     dev: true
@@ -832,6 +848,16 @@ packages:
     resolution: {integrity: sha512-2JkGrutvVwvXAC48vCiEpiYLMXlV1rDigR1lwRrKxQC1s/1/j4Wei2RqY0649CkpWZBvdiJ5oPF38NV9pWOnKw==}
     dependencies:
       '@unocss/core': 0.51.8
+    dev: true
+
+  /@unocss/preset-icons@0.51.12:
+    resolution: {integrity: sha512-JdA3j9GhpwU6/VJMJjqZulYVdYAx2R86eXdlwZXVt7WYy/zWAF4au1iBI6+e5rp3V98yxFe+byWXqvn5aRUszg==}
+    dependencies:
+      '@iconify/utils': 2.1.5
+      '@unocss/core': 0.51.12
+      ofetch: 1.0.1
+    transitivePeerDependencies:
+      - supports-color
     dev: true
 
   /@unocss/preset-icons@0.51.8:

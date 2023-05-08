@@ -22,6 +22,9 @@ export default defineConfig({
 
   shortcuts: [
     [/^(.*)Text$/, ([,c]) => `text-${ARTICLE_TEXT[c]}`],
+    {
+      link: 'text-dark dark:text-white no-underline border-bottom-',
+    },
   ],
 
   theme: {
@@ -43,12 +46,65 @@ export default defineConfig({
     }),
     presetAttributify(),
     presetIcons({
-      scale: 1.2,
+      extraProperties: {
+        display: 'inline-block',
+      },
     }),
     presetTypography({
       cssExtend: {
-        blockquote: {
+        'h1': {
+          color: 'var(--c-text-base)',
+        },
+        'a': {
+          'color': 'var(--c-prose-links)',
+          'text-decoration': 'none',
+          'border-bottom': '1px dashed currentColor',
+          'padding-bottom': '2px',
+          'font-weight': '500',
+        },
+        'a:hover': {
+          color: 'var(--c-prose-primary)',
+        },
+        'blockquote': {
           'font-style': 'none',
+          'color': 'var(--c-blockquote)',
+          'border-left': '.2em solid var(--c-prose-borders)',
+        },
+        'hr': {
+          'width': '48px',
+          'height': '2px',
+          'background': 'var(--c-prose-hr)',
+          'border-radius': '24px',
+          'margin': '2em auto',
+          'border': 'none',
+          'opacity': '0.5',
+        },
+
+        'code': {
+          'color': 'var(--c-prose-code)',
+          'font-size': '.875em',
+          'font-family': 'var(--un-prose-font-mono)',
+          'background': 'var(--c-prose-inline-bg-color) !important',
+          'padding': '0.2rem 0.375rem',
+          'border-radius': '0.25rem',
+          'font-weight': 400,
+        },
+
+        'pre,code': {
+          background: 'var(--c-prose-pre-bg)',
+        },
+
+        'pre > code': {
+          background: 'transparent !important',
+        },
+
+        'pre': {
+          border: '1px solid var(--c-prose-pre-border)',
+          background: 'var(--c-prose-pre-bg)',
+        },
+
+        ':not(pre) > code::before,:not(pre) > code::after': {
+          content: '',
         },
       },
     }),
