@@ -22,6 +22,9 @@ export default defineConfig({
 
   shortcuts: [
     [/^(.*)Text$/, ([,c]) => `text-${ARTICLE_TEXT[c]}`],
+    {
+      'text-secondary': 'text-$c-text-secondary',
+    },
   ],
 
   theme: {
@@ -48,7 +51,7 @@ export default defineConfig({
       ],
       serif: ['ui-serif', 'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
       mono: [
-        'JetBrainsMonoNL-Regular',
+        'JetBrainsMono-Regular',
         'ui-monospace',
         'SFMono-Regular',
         'Menlo',
@@ -67,8 +70,11 @@ export default defineConfig({
     }),
     presetAttributify(),
     presetIcons({
+      scale: 1.2,
       extraProperties: {
-        display: 'inline-block',
+        'display': 'inline-block',
+        'vertical-align': 'text-bottom',
+        'min-width': '1.2em',
       },
     }),
     presetTypography({
