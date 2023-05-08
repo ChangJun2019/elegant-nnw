@@ -12,7 +12,7 @@
   --c-prose-inline-bg-color:#f4f4f5;
   --c-prose-code: #3f3f46;
   --c-prose-pre-border: #e4e4e7;
-  --c-prose-pre-bg: #f4f4f5
+  --c-prose-pre-bg: #f4f4f5;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -27,7 +27,7 @@
     --c-prose-inline-bg-color: #27272A;
     --c-prose-code: #e4e4e7;
     --c-prose-pre-border: #27272A;
-    --c-prose-pre-bg: #18181B
+    --c-prose-pre-bg: #18181B;
 	}
 }
 

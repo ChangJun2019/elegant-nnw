@@ -22,9 +22,6 @@ export default defineConfig({
 
   shortcuts: [
     [/^(.*)Text$/, ([,c]) => `text-${ARTICLE_TEXT[c]}`],
-    {
-      link: 'text-dark dark:text-white no-underline border-bottom-',
-    },
   ],
 
   theme: {
@@ -105,6 +102,22 @@ export default defineConfig({
 
         ':not(pre) > code::before,:not(pre) > code::after': {
           content: '',
+        },
+
+        'figcaption': {
+          'color': 'var(--c-blockquote)',
+          'font-size': '.875em',
+          'margin-top': '.8em',
+        },
+
+        'img,video': {
+          'max-width': '100%',
+          'border-radius': '.6rem',
+          'height': 'auto',
+        },
+
+        'figure,picture': {
+          margin: '1em 0',
         },
       },
     }),
