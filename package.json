@@ -8,7 +8,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "NODE_ENV=development unocss --watch",
-    "build": "NODE_ENV=production unocss --minify",
+    "build": "NODE_ENV=production unocss --minify && esno ./scripts/build",
     "fix": "stylelint \"**/*.css\""
   },
   "devDependencies": {
@@ -19,8 +19,11 @@
     "@unocss/preset-icons": "^0.51.12",
     "clean-css": "^5.3.2",
     "compressing": "^1.9.0",
+    "consola": "^3.1.0",
     "eslint": "^8.39.0",
     "esno": "^0.16.3",
+    "mkdirp": "^3.0.1",
+    "rimraf": "^5.0.0",
     "stylelint": "^15.6.0",
     "stylelint-config-standard": "^33.0.0",
     "typescript": "^5.0.4",
