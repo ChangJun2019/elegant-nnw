@@ -28,9 +28,9 @@ export default defineConfig({
   ],
 
   theme: {
-    maxWidth: {
-      prose: '80ch',
-    },
+    // maxWidth: {
+    //   prose: '80ch',
+    // },
     fontFamily: {
       sans: [
         'LXGWWenKaiGBScreen',
