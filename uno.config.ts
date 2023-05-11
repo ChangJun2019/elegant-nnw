@@ -1,6 +1,6 @@
 import fs from 'node:fs'
 import { defineConfig, presetAttributify, presetIcons, presetTypography, presetUno } from 'unocss'
-import { fontFamily } from '@unocss/preset-mini/theme'
+import { fontFamily } from '@unocss/preset-mini/dist/theme'
 import { ARTICLE_TEXT, DIRECTORY_NAME } from './constant'
 
 function getMainCss() {
@@ -31,12 +31,12 @@ export default defineConfig({
   theme: {
     fontFamily: {
       sans: [
-        'LXGWWenKai-Regular',
-        ...fontFamily.sans,
+        'LXGWWenKaiGBScreen',
+        ...fontFamily.sans.split(','),
       ],
       mono: [
         'JetBrainsMono-Regular',
-        ...fontFamily.mono,
+        ...fontFamily.mono.split(','),
       ],
     },
   },
