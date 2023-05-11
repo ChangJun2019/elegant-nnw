@@ -1,5 +1,6 @@
 import fs from 'node:fs'
 import { defineConfig, presetAttributify, presetIcons, presetTypography, presetUno } from 'unocss'
+import { fontFamily } from '@unocss/preset-mini/theme'
 import { ARTICLE_TEXT, DIRECTORY_NAME } from './constant'
 
 function getMainCss() {
@@ -31,32 +32,11 @@ export default defineConfig({
     fontFamily: {
       sans: [
         'LXGWWenKai-Regular',
-        'ui-sans-serif',
-        'system-ui',
-        '-apple-system',
-        'BlinkMacSystemFont',
-        '"Segoe UI"',
-        'Roboto',
-        '"Helvetica Neue"',
-        'Arial',
-        '"Noto Sans"',
-        'sans-serif',
-        '"Apple Color Emoji"',
-        '"Segoe UI Emoji"',
-        '"Segoe UI Symbol"',
-        '"Noto Color Emoji"',
+        ...fontFamily.sans,
       ],
-      serif: ['LXGWWenKai-Regular', 'ui-serif', 'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
       mono: [
         'JetBrainsMono-Regular',
-        'ui-monospace',
-        'SFMono-Regular',
-        'Menlo',
-        'Monaco',
-        'Consolas',
-        '"Liberation Mono"',
-        '"Courier New"',
-        'monospace',
+        ...fontFamily.mono,
       ],
     },
   },
