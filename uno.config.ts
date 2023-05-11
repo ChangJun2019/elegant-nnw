@@ -28,12 +28,9 @@ export default defineConfig({
   ],
 
   theme: {
-    // maxWidth: {
-    //   prose: '80ch',
-    // },
     fontFamily: {
       sans: [
-        'LXGWWenKaiGBScreen',
+        'LXGWWenKai-Regular',
         'ui-sans-serif',
         'system-ui',
         '-apple-system',
@@ -49,7 +46,7 @@ export default defineConfig({
         '"Segoe UI Symbol"',
         '"Noto Color Emoji"',
       ],
-      serif: ['ui-serif', 'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
+      serif: ['LXGWWenKai-Regular', 'ui-serif', 'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
       mono: [
         'JetBrainsMono-Regular',
         'ui-monospace',
