@@ -1,11 +1,22 @@
 {
   "name": "elegant-nnw",
-  "version": "1.0.0",
-  "description": "",
-  "author": "",
+  "version": "0.1.1",
+  "packageManager": "pnpm@8.5.0",
+  "description": "Elegant theme for NetNewsWire",
+  "author": {
+    "name": "Chang Jun",
+    "email": "52chinaweb@gmail.com",
+    "url": "https://52chinaweb.com/"
+  },
   "license": "ISC",
-  "keywords": [],
-  "main": "index.js",
+  "homepage": "https://github.com/ChangJun2019/elegant-nnw",
+  "keywords": [
+    "theme",
+    "nnw",
+    "netnewswire",
+    "light",
+    "dark"
+  ],
   "scripts": {
     "dev": "NODE_ENV=development unocss --watch",
     "build": "NODE_ENV=production unocss --minify && esno ./scripts/build",
