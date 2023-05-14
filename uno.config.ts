@@ -31,11 +31,9 @@ export default defineConfig({
   theme: {
     fontFamily: {
       sans: [
-        'LXGWWenKaiGBScreen',
         ...fontFamily.sans.split(','),
       ],
       mono: [
-        'JetBrainsMono-Regular',
         ...fontFamily.mono.split(','),
       ],
     },
