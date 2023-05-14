@@ -8,6 +8,10 @@
 
 ## Screenshots
 
+![elegant-theme-shots-dark](https://github.com/ChangJun2019/elegant-nnw/assets/32004895/35b3775f-54a2-4509-9c7b-61609dfdba1b)
+
+![elegant-theme-shots-light](https://github.com/ChangJun2019/elegant-nnw/assets/32004895/400071fb-f368-48d3-8469-69849aad9b83)
+
 ## About Font
 
 The current theme font application rules are as follows
