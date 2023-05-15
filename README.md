@@ -10,9 +10,9 @@
 
 ## Screenshots
 
-![elegant-theme-shots-dark](https://github.com/ChangJun2019/elegant-nnw/assets/32004895/f37ae337-6dda-49d1-8b09-8e3df22ae175)
+![elegant-theme-dark-shots](https://github.com/ChangJun2019/elegant-nnw/assets/32004895/45f5d528-890e-40a6-af50-76d98ff11ac3)
 
-![elegant-theme-shots-light](https://github.com/ChangJun2019/elegant-nnw/assets/32004895/a9540ab2-d0ea-4c40-b2ca-bea2d4af81b5)
+![elegant-theme-light-shots](https://github.com/ChangJun2019/elegant-nnw/assets/32004895/708d0889-f247-48a5-ab4f-457f66d25b21)
 
 ![elegant-theme-ios-shots](https://github.com/ChangJun2019/elegant-nnw/assets/32004895/cb246b25-66d1-495e-b788-79cbf8fb0cf5)
 
