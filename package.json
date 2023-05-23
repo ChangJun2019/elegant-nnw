@@ -21,11 +21,7 @@
     "dev": "NODE_ENV=development unocss --watch",
     "build": "NODE_ENV=production unocss --minify && esno ./scripts/build",
     "fix": "stylelint \"**/*.css\"",
-    "release": "bumpp --commit --tag --push",
-    "releaseLog": "pnpm run release && changelogithub"
-  },
-  "dependencies": {
-    "changelogithub": "link:../cchangelogithub"
+    "release": "bumpp --commit --tag --push"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.38.5",
