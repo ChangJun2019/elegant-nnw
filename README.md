@@ -2,7 +2,7 @@
 
 <p align="center">A beautiful, elegant theme for <a href="https://netnewswire.com/">NetNewsWire RSS reader</a>.</p>
 <p align="center">
-  <a href="https://github.com/ChangJun2019/elegant-nnw/releases/download/v0.1.5/Elegant.nnwtheme.zip" alt="install theme">
+  <a href="https://github.com/ChangJun2019/elegant-nnw/releases/download/v0.1.6/Elegant.nnwtheme.zip" alt="install theme">
     <img src="https://img.shields.io/badge/elegant--theme-downloads-00dd83" alt="install theme to NetNewsWire"></img>
   </a>
 </p>

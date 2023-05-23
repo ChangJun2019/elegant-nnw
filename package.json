@@ -1,6 +1,6 @@
 {
   "name": "elegant-nnw",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "packageManager": "pnpm@8.5.0",
   "description": "Elegant theme for NetNewsWire",
   "author": {
@@ -21,7 +21,11 @@
     "dev": "NODE_ENV=development unocss --watch",
     "build": "NODE_ENV=production unocss --minify && esno ./scripts/build",
     "fix": "stylelint \"**/*.css\"",
-    "release": "bumpp --commit --tag --push"
+    "release": "bumpp --commit --tag --push",
+    "releaseLog": "pnpm run release && changelogithub"
+  },
+  "dependencies": {
+    "changelogithub": "link:../cchangelogithub"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.38.5",
