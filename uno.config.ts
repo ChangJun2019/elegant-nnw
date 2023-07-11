@@ -65,7 +65,8 @@ export default defineConfig({
           'font-weight': '500',
         },
         'a:hover': {
-          color: 'var(--c-prose-primary)',
+          'color': 'var(--c-prose-primary)',
+          'border-bottom': '1px solid currentColor',
         },
         'blockquote': {
           'font-style': 'none',
