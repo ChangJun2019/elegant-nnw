@@ -10,11 +10,12 @@
 
 ## Screenshots
 
-![elegant-theme-dark-shots](https://github.com/ChangJun2019/elegant-nnw/assets/32004895/45f5d528-890e-40a6-af50-76d98ff11ac3)
+![elegant-theme-dark-shots](https://github.com/ChangJun2019/elegant-nnw/assets/32004895/11211350-1dec-4356-b08b-a33503469bd8)
 
-![elegant-theme-light-shots](https://github.com/ChangJun2019/elegant-nnw/assets/32004895/708d0889-f247-48a5-ab4f-457f66d25b21)
+![elegant-theme-light-shots](https://github.com/ChangJun2019/elegant-nnw/assets/32004895/db3fdb32-8b90-441d-9d07-6e34eb97d33d)
 
-![elegant-theme-ios-shots](https://github.com/ChangJun2019/elegant-nnw/assets/32004895/cb246b25-66d1-495e-b788-79cbf8fb0cf5)
+![elegant-theme-ios-shots](https://github.com/ChangJun2019/elegant-nnw/assets/32004895/5b82d0cd-2885-48df-94f2-6d1461a7fb4b)
+
 
 ## About Font
 
