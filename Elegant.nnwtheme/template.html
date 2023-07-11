@@ -32,47 +32,32 @@ body: The body of the article.
 
 <div id="elegantReader" class="animate-fade-in max-w-prose px-2 py-3 mx-auto box-border font-sans [[text_size_class]]">
 
-  <div class="w-full h-12 flex items-center space-x-4 my-8">
-    <div class="flex-shrink-0 ">
-      <img class="w-12 h-12 overflow-hidden bg-white dark:bg-dark-600 rounded-md ring-1 ring-dark-600/5 shadow-xl" src="[[avatar_src]]" alt="feed img">
+  <div class="w-full h-12 flex items-center space-x-4 my-8 text-xl font-medium text-gray-900 dark:text-white">
+    <img class="flex-shrink-0 w-12 h-12 overflow-hidden bg-white dark:bg-dark-600 rounded-md ring-1 ring-dark-600/5 shadow-xl" src="[[avatar_src]]" alt="feed img">
+    <div class="flex-1 min-w-0 truncate">
+      [[feed_link_title]]
     </div>
-    <div class="flex-1 min-w-0 flex flex-col">
-      <div class="text-xl font-medium text-gray-900 truncate dark:text-white">
-        [[feed_link_title]]
-      </div>
-      <div class="text-sm text-secondary truncate">
-        <span>Posted on [[datetime_long]] </span>
-      </div>
+    <div class="text-base text-secondary">
+      [[date_long]]
     </div>
   </div>
 
   <article class="prose prose-dark dark:prose-light">
     <h1 class="mb-4">[[title]]</h1>
     <p class="mt-2 text-secondary">
-      <span>[[datetime_medium]]</span>
-
       <a href="[[feed_link]]" class="ml-2 text-secondary" alt="feed link" title="feed link">
         <span class="i-carbon-rss"></span>
         Feed
       </a>
-
       <a href="[[preferred_link]]" class="ml-4 text-secondary" alt="originally link" title="originally link">
         <span class="i-carbon-link"></span>
         Originally
       </a>
-
     </p>
     <div class="mt-8">
       [[body]]
     </div>
     <p class="text-secondary text-sm text-center my-12">- THE END -</p>
-    <p class="text-secondary text-base mt-12">This feed was posted on [[datetime_short]]</p>
-    <p class="text-secondary text-base">Originally published at
-      <a href="[[feed_link]]" class="ml-4 text-secondary" alt="originally link" title="originally link">
-        <span class="i-carbon-link"></span>
-        [[feed_link_title]]
-      </a>
-    </p>
   </article>
 
 

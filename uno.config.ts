@@ -120,6 +120,7 @@ export default defineConfig({
           'max-width': '100%',
           'border-radius': '.6rem',
           'height': 'auto',
+          'margin': '1em 0',
         },
 
         'figure,picture': {
