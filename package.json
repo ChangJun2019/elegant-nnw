@@ -1,7 +1,7 @@
 {
   "name": "elegant-nnw",
   "version": "0.1.6",
-  "packageManager": "pnpm@8.5.0",
+  "packageManager": "pnpm@8.6.7",
   "description": "Elegant theme for NetNewsWire",
   "author": {
     "name": "Chang Jun",
@@ -24,22 +24,22 @@
     "release": "bumpp --commit --tag --push"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.38.5",
-    "@iconify-json/carbon": "^1.1.16",
-    "@types/node": "^18.16.3",
-    "@unocss/eslint-config": "^0.51.8",
-    "@unocss/preset-icons": "^0.51.12",
-    "bumpp": "^9.1.0",
+    "@antfu/eslint-config": "^0.39.7",
+    "@iconify-json/carbon": "^1.1.18",
+    "@types/node": "^20.4.1",
+    "@unocss/eslint-config": "^0.53.5",
+    "@unocss/preset-icons": "^0.53.5",
+    "bumpp": "^9.1.1",
     "clean-css": "^5.3.2",
     "compressing": "^1.9.0",
-    "consola": "^3.1.0",
-    "eslint": "^8.39.0",
+    "consola": "^3.2.3",
+    "eslint": "^8.44.0",
     "esno": "^0.16.3",
     "mkdirp": "^3.0.1",
-    "rimraf": "^5.0.0",
-    "stylelint": "^15.6.0",
-    "stylelint-config-standard": "^33.0.0",
-    "typescript": "^5.0.4",
-    "unocss": "^0.51.8"
+    "rimraf": "^5.0.1",
+    "stylelint": "^15.10.1",
+    "stylelint-config-standard": "^34.0.0",
+    "typescript": "^5.1.6",
+    "unocss": "^0.53.5"
   }
 }
