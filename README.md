@@ -18,17 +18,23 @@
 
 ## About Font
 
-The current theme font application rules are as follows
+The current theme font application rules are as follows.
 
 ```css
 .font-sans{
-  font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-family: Inter,LXGWWenKaiGBScreen,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 
 .font-mono{
-  font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace
+  font-family: JetBrainsMono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace
 }
 ```
+
+- [Inter](https://github.com/rsms/inter) My favorite Latin font.
+- [LXGWWenKaiGBScreen](https://github.com/lxgw/LxgwWenKai-Screen) My favorite Chinese font.
+- [JetBrainsMono](https://github.com/JetBrains/JetBrainsMono) My favorite Code font.
+
+If you like these fonts too, you need to install them locally.
 
 ## Thanks
 
