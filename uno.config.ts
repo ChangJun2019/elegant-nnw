@@ -129,6 +129,10 @@ export default defineConfig({
         'figure,picture': {
           margin: '1em 0',
         },
+
+        'tr:nth-child(2n)': {
+          background: 'none',
+        },
       },
     }),
   ],

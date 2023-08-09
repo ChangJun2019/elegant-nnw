@@ -18,7 +18,7 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-    --c-bg-base: rgb(17 17 17);
+    --c-bg-base: #09090B;
     --c-text-base: #fff;
     --c-text-secondary: #a1a1a1;
     --c-blockquote: #a1a1a1; 
@@ -36,6 +36,6 @@
 /* var end */
 
 html,body{ 
-  background-color: var(--c-bg-base);
+  background: var(--c-bg-base);
   color: var(--c-text-base);
 }
