@@ -23,7 +23,7 @@ The current theme font application rules are as follows.
 
 ```css
 .font-sans{
-  font-family: Inter,LXGWWenKaiGBScreen,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-family: Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 
 .font-mono{
@@ -32,7 +32,6 @@ The current theme font application rules are as follows.
 ```
 
 - [Inter](https://github.com/rsms/inter) My favorite Latin font.
-- [LXGWWenKaiGBScreen](https://github.com/lxgw/LxgwWenKai-Screen) My favorite Chinese font.
 - [JetBrainsMono](https://github.com/JetBrains/JetBrainsMono) My favorite Code font.
 
 If you like these fonts too, you need to install them locally.

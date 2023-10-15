@@ -32,7 +32,6 @@ export default defineConfig({
     fontFamily: {
       sans: [
         'Inter',
-        'LXGWWenKaiGBScreen',
         ...fontFamily.sans.split(','),
       ],
       mono: [

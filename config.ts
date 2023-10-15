@@ -1,4 +1,4 @@
 export default {
-  fontSans: ['Inter', 'LXGWWenKaiGBScreen'],
+  fontSans: ['Inter'],
   fontMono: ['JetBrainsMono'],
 }
