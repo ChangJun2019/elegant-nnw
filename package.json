@@ -1,6 +1,6 @@
 {
   "name": "elegant-nnw",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "packageManager": "pnpm@8.9.0",
   "description": "Elegant theme for NetNewsWire",
   "author": {
