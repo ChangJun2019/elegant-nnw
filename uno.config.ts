@@ -1,6 +1,5 @@
 import fs from 'node:fs'
-import { defineConfig, presetAttributify, presetIcons, presetTypography, presetUno } from 'unocss'
-import { fontFamily } from '@unocss/preset-mini/dist/theme'
+import { defineConfig, presetAttributify, presetIcons, presetTypography, presetMini } from 'unocss'
 import { ARTICLE_TEXT, DIRECTORY_NAME } from './constant'
 
 function getMainCss() {
@@ -32,17 +31,15 @@ export default defineConfig({
     fontFamily: {
       sans: [
         'Inter',
-        ...fontFamily.sans.split(','),
       ],
       mono: [
-        'JetBrainsMono',
-        ...fontFamily.mono.split(','),
+        'Maple Mono'
       ],
     },
   },
 
   presets: [
-    presetUno({
+    presetMini({
       dark: 'media',
     }),
     presetAttributify(),
@@ -67,7 +64,6 @@ export default defineConfig({
           'font-weight': '500',
         },
         'a:hover': {
-          'color': 'var(--c-prose-primary)',
           'border-bottom': '1px solid currentColor',
         },
         'blockquote': {
@@ -88,11 +84,11 @@ export default defineConfig({
         'code': {
           'color': 'var(--c-prose-code)',
           'font-size': '.875em',
-          'font-family': 'var(--un-prose-font-mono)',
+          'font-family': 'Maple Mono',
           'background': 'var(--c-prose-inline-bg-color) !important',
           'padding': '0.2rem 0.375rem',
           'border-radius': '0.25rem',
-          'font-weight': 400,
+          'font-weight': 500,
         },
 
         'pre,code': {

@@ -2,12 +2,12 @@
   "css.validate": false,
   "stylelint.validate": ["css"],
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "explicit"
   },
   "[css]": {
     "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": false,
-      "source.fixAll.stylelint": true
+      "source.fixAll.eslint": "never",
+      "source.fixAll.stylelint": "explicit"
     }
   },
   "cSpell.words": [
@@ -24,6 +24,7 @@
     "Roboto",
     "Segoe",
     "taze",
+    "unocss",
     "wenkai",
     "Windi"
   ]
