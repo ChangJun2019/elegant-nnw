@@ -32,7 +32,7 @@ jobs:
       - name: build
         run: pnpm run build
 
-      - run: npx changelogithub
+      - run: npx changelogithub@0.12
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       
