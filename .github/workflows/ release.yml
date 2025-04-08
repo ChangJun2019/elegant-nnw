@@ -37,8 +37,6 @@ jobs:
       - run: npx changelogithub@0.12
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-        with:
-          fetch-depth: 0
       
       - name: Upload files to release
         uses: svenstaro/upload-release-action@v2
